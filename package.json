@@ -21,9 +21,16 @@
     "url": "https://github.com/github/hubot.git"
   },
   "dependencies": {
+    "clark": "0.0.6",
+    "htmlparser": "^1.7.7",
     "hubot": ">= 2.6.0 < 3.0.0",
+    "hubot-plusplus": "^1.1.0",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
-    "hubot-slack": "^2.1.1"
+    "hubot-slack": "^2.1.1",
+    "jsdom": "^0.11.1",
+    "robot": "^0.3.0",
+    "soupselect": "^0.2.0",
+    "underscore": "^1.6.0"
   },
   "engines": {
     "node": ">= 0.8.x",
