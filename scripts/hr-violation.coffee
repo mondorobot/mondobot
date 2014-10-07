@@ -17,7 +17,15 @@ violation = [
  "% shall now be flashed by :kelly:",
  "The HR Department manager will be contacting %",
  "Oh so you think you're tough, %?",
- "You will be suspended without pay without being suspended, %"
+ "You will be suspended without pay without being suspended, %",
+ "Don't be a jackass, %",
+ "Sigh.. another violation %? You're going to the shit house",
+ "Do it again %, and you'll be sleeping with the hobos in the back",
+ "%'s desk will now be moved into Chris' office",
+ "The kitchen sink is not for that, %",
+ "%'s circle K rights have been revoked",
+ "% is now in charge of cleaning up Edna's shit",
+ "Everyone point and laugh at %"
 ]
 
 module.exports = (robot) ->
