@@ -25,7 +25,8 @@ violation = [
  "The kitchen sink is not for that, %",
  "%'s circle K rights have been revoked",
  "% is now in charge of cleaning up Edna's shit",
- "Everyone point and laugh at %"
+ "Everyone point and laugh at %",
+ "% thinks they are funny, but everyone else thinks they are a jackass, % you jackass."
 ]
 
 module.exports = (robot) ->
