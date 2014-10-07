@@ -26,7 +26,7 @@ violation = [
  "%'s circle K rights have been revoked",
  "% is now in charge of cleaning up Edna's shit",
  "Everyone point and laugh at %",
- "% thinks they are funny, but everyone else thinks they are a jackass, % you jackass."
+ "% thinks they are funny, but everyone else thinks they are a jackass, you jackass."
 ]
 
 module.exports = (robot) ->
@@ -42,3 +42,5 @@ module.exports = (robot) ->
       violate_me()
     else
       violate_them()
+  robot.hear /timesheets/i, (msg) ->
+    msg.send "http://imgbin.org/images/19648.gif"
