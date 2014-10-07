@@ -42,5 +42,5 @@ module.exports = (robot) ->
       violate_me()
     else
       violate_them()
-  robot.hear /timesheets/i, (msg) ->
+  robot.hear /(timesheets)/i, (msg) ->
     msg.send "http://imgbin.org/images/19648.gif"
