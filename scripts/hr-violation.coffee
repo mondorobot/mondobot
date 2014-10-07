@@ -29,6 +29,12 @@ violation = [
  "% thinks they are funny, but everyone else thinks they are a jackass, you jackass."
 ]
 
+timesheets = [
+  "http://imgbin.org/images/19648.gif",
+  "http://oldhatcreative.com/sites/default/files/blog_images/TEMP-Image_2_9.gif",
+  "http://s3.amazonaws.com/christmas_gif_shop/gifs/11/shelf/cliffgif_lowres.gif?1323786687"
+]
+
 module.exports = (robot) ->
   robot.hear /(hr violation) (.*)/i, (msg) ->
     violation_message = msg.random violation
@@ -43,4 +49,4 @@ module.exports = (robot) ->
     else
       violate_them()
   robot.hear /(timesheets)/i, (msg) ->
-    msg.send "http://imgbin.org/images/19648.gif"
+    msg.send msg.random timesheets
