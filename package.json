@@ -21,6 +21,7 @@
     "url": "https://github.com/github/hubot.git"
   },
   "dependencies": {
+    "cheerio": "^0.17.0",
     "clark": "0.0.6",
     "htmlparser": "^1.7.7",
     "hubot": ">= 2.6.0 < 3.0.0",
