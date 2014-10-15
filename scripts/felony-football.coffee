@@ -64,6 +64,5 @@ module.exports = (robot) ->
     sendMessage = (data) ->
       yearScores = data[msg.match[1]]
       console.log('scores: ', yearScores)
-
-      msg.send
+      msg.send JSON.stringify(yearScores)
     retrieveTeamScores(robot, sendMessage)
