@@ -16,5 +16,3 @@ module.exports = (robot) ->
     msg.http("http://cool-face.herokuapp.com/")
       .get() (err, res, body) ->
         msg.send JSON.parse(body).face
-
-
