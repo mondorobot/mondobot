@@ -32,7 +32,9 @@ violation = [
 timesheets = [
   "http://imgbin.org/images/19648.gif",
   "http://oldhatcreative.com/sites/default/files/blog_images/TEMP-Image_2_9.gif",
-  "http://s3.amazonaws.com/christmas_gif_shop/gifs/11/shelf/cliffgif_lowres.gif?1323786687"
+  "http://s3.amazonaws.com/christmas_gif_shop/gifs/11/shelf/cliffgif_lowres.gif?1323786687",
+  "http://stream1.gifsoup.com/view3/3897781/big-shake-o.gif",
+  "http://29.media.tumblr.com/tumblr_m2r5f4kja41rppi2wo2_500.gif"
 ]
 
 module.exports = (robot) ->
