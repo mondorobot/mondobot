@@ -49,7 +49,6 @@ imageMe = (msg, query, animated, faces, cb) ->
           googleImageSearch(msg, query, animated, faces, cb)
           return
         if res.statusCode isnt 200
-          msg.send('trying hard');
           googleImageSearch(msg, query, animated, faces, cb)
           return
         response = JSON.parse(body)
